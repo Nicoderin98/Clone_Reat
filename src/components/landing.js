@@ -46,7 +46,17 @@ const myForm={
             </div>
           </div>
         </div>
-        <Cards />
+        <div className='row'>
+          <div className='col'>
+            <Cards />
+          </div>
+          <div className='col'>
+            <Cards />
+          </div>
+          <div className='col'>
+            <Cards />
+          </div>
+        </div>
         <br />
 
     </div>
