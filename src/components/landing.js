@@ -5,12 +5,12 @@ function Landing() {
 
   const myStyle={
     backgroundColor: "#ececec",
-    height: "auto"
+
 };
 
 const myForm={
   backgroundColor: "white",
-  width: "100%",
+  width: "auto",
   padding: "12px",
   border: "1px solid #ccc",
   borderradius: "4px",
@@ -18,14 +18,24 @@ const myForm={
   resize: "vertical",
 };
 
+const titolo={
+    color: "rgb(97, 218, 251)",
+    margin: "0px",
+    fontsize: "45px",
+    letterspacing: "0.01em",
+}
+
   return (
-    <div style={myStyle}>
+    <div>
       <br />
-        <div className="container-xl">
-        <p className="text-xl-center">100% wide until large</p>
+        <div className="container-xl"style={myStyle}>
+        <div className='title'>
+        <h1 className="text-xl-center" style={titolo} >100% wide until large</h1>
+        <p className="text-xl-center">Una libreria JavaScript per creare interfacce utente</p>
+        </div>
         <div className="row">
           <div className="col-sm-9">
-          <img className="responsive"src="https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png" style={{height: "auto",width: "100%"}} alt="..."/>
+          <img className="responsive"src="https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png" style={{width: "100%",margin:"10px",marginLeft:"-2px"}} alt="..."/>
           </div>
           <div className="col">
           <form className="shadow p-3 mb-5 rounded form-label"style={myForm} >
