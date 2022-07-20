@@ -26,7 +26,7 @@ const titolo={
 }
 
   return (
-    <div>
+    <div className='container'>
       <br />
         <div className="container-xl"style={myStyle}>
         <div className='title'>

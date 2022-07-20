@@ -13,8 +13,8 @@ import { CardActionArea } from '@mui/material';
 
 function Cards() {
   return (
-    <div className='px-5 py-5'>
-    <Card style={stile} sx={{ maxWidth: 345 }}>
+    <div className='px-5 py-5 '>
+    <Card className="shadow p-3 mb-5 bg-body rounded"style={stile} sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
           style={stile}
@@ -23,7 +23,7 @@ function Cards() {
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeqIGbZGNYSwxnb3GN6Mj6p4znEpH7ohcDhQ&usqp=CAU"
           alt="green iguana"
         />
-        <CardContent className='text-center '>
+        <CardContent className='text-center  '>
           <Typography gutterBottom variant="h5" component="div">
             Lizard
           </Typography>
