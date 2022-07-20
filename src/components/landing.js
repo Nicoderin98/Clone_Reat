@@ -30,7 +30,7 @@ const titolo={
       <br />
         <div className="container-xl"style={myStyle}>
         <div className='title'>
-        <h1 className="text-xl-center" style={titolo} >100% wide until large</h1>
+        <h1 className="text-xl-center" style={titolo} ><strong>React</strong></h1>
         <p className="text-xl-center">Una libreria JavaScript per creare interfacce utente</p>
         </div>
         <div className="row">
@@ -65,6 +65,7 @@ const titolo={
             </div>
           </div>
         </div>
+        <div className='container'>
         <div className='row'>
           <div className='col'>
             <Cards />
@@ -75,6 +76,7 @@ const titolo={
           <div className='col'>
             <Cards />
           </div>
+        </div>
         </div>
         <br />
 

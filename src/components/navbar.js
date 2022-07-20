@@ -11,7 +11,7 @@ function Navbar() {
         </div>
 
 
-        <b className="navbar-brand mb-0 h1 ">React Native</b>
+        <b className="navbar-brand mb-0 h1 "><strong>React Native</strong></b>
         <Avatar src="https://avatars.githubusercontent.com/u/96485980?v=4" width="40" height="40" />
       </div>
     </nav>
