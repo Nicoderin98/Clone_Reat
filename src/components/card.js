@@ -25,11 +25,11 @@ function Cards() {
         />
         <CardContent className='text-center  '>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            <strong> Lizard </strong>
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            <p className='fs-6'>Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica</p>
           </Typography>
         </CardContent>
       </CardActionArea>

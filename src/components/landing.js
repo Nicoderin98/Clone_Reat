@@ -28,11 +28,11 @@ const titolo={
         <div className="container-xl"style={myStyle}>
         <div className='title'>
         <h1 className="text-xl-center" style={titolo} ><strong>React</strong></h1>
-        <p className="text-xl-center">Una libreria JavaScript per creare interfacce utente</p>
+        <p className="text-xl-center fs-5">Una libreria JavaScript per creare interfacce utente</p>
         </div>
         <div className="row">
           <div className="col-sm-9">
-          <img className="responsive"src="https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png" style={{width: "100%",margin:"10px",marginLeft:"-2px"}} alt="..."/>
+          <img className="responsive shadow mb-2 rounded"src="https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png" style={{width: "100%",margin:"10px",marginLeft:"-2px"}} alt="..."/>
           </div>
           <div className="col">
           <form className="shadow p-3 mb-5 rounded form-label"style={myForm} >
