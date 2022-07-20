@@ -1,4 +1,3 @@
-import { blue } from '@mui/material/colors';
 import React from 'react'
 import Cards from './card';
 
