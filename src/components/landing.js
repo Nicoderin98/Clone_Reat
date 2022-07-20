@@ -27,8 +27,8 @@ const titolo={
       <br />
         <div className="container-xl"style={myStyle}>
         <div className='title'>
-        <h1 className="text-xl-center" style={titolo} ><strong>React</strong></h1>
-        <p className="text-xl-center fs-5">Una libreria JavaScript per creare interfacce utente</p>
+        <h1 className="text-center" style={titolo} ><strong>React</strong></h1>
+        <p className="text-center fs-5">Una libreria JavaScript per creare interfacce utente</p>
         </div>
         <div className="row">
           <div className="col-sm-9">
@@ -48,7 +48,7 @@ const titolo={
               <label example="exampleInputPassword1" className="form-label"><strong>Password</strong></label>
               <input type="password" className="form-control" id="exampleInputPassword1"/>
             </div>
-            <div className="mb-3">
+            <div className="mb-3 ">
             <label className="form-label"><strong>Mansione:</strong></label>
             <select className="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
               <option value="DEFAULT" >Choose...</option>
@@ -57,7 +57,9 @@ const titolo={
               <option >Full Stack</option>
             </select>
             </div>
+            <div className='text-center'>
             <button type="submit" className="btn btn-primary flex"><strong>Submit</strong></button>
+            </div>
           </form>
             </div>
           </div>
@@ -76,7 +78,9 @@ const titolo={
         </div>
         </div>
         <br />
-
+        <div className='text-center'>
+        <button type="submit"className='btn btn-primary flex fs-1' style={{marginTop:"-100px", width:"auto"}}><strong>Get start</strong></button>
+        </div>
     </div>
   )
 }

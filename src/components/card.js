@@ -23,13 +23,13 @@ function Cards() {
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeqIGbZGNYSwxnb3GN6Mj6p4znEpH7ohcDhQ&usqp=CAU"
           alt="green iguana"
         />
-        <CardContent className='text-center  '>
+        <CardContent className='text-center '>
           <Typography gutterBottom variant="h5" component="div">
             <strong> Lizard </strong>
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            <p className='fs-6'>Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica</p>
+          <Typography variant="h7" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
       </CardActionArea>
