@@ -1,3 +1,4 @@
+import { blue } from '@mui/material/colors';
 import React from 'react'
 import Cards from './card';
 
@@ -13,8 +14,6 @@ const myForm={
   width: "auto",
   padding: "12px",
   border: "1px solid #ccc",
-  borderradius: "4px",
-  boxsizing: "border-box",
   resize: "vertical",
 };
 
@@ -22,7 +21,6 @@ const titolo={
     color: "rgb(97, 218, 251)",
     margin: "0px",
     fontsize: "45px",
-    letterspacing: "0.01em",
 }
 
   return (
