@@ -1,13 +1,14 @@
 import React from 'react'
 import { Avatar } from '@mui/material'
+import Logo from "./logo.svg"
 function Navbar() {
 
   return (
     <nav className="navbar navbar-dark bg-dark">
       <div className="container-fluid shadow-sm">
-        <a className="navbar-brand" href="#">
-        <img src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg"variant="square" width="40" height="40" />
-        </a>
+        <div className="navbar-brand logo" >
+        <img src={Logo}variant="square"alt='logo react' width="40" height="40" />
+        </div>
 
 
         <b className="navbar-brand mb-0 h1 ">React Native</b>

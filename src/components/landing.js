@@ -10,6 +10,12 @@ function Landing() {
 
 const myForm={
   backgroundColor: "white",
+  width: "100%",
+  padding: "12px",
+  border: "1px solid #ccc",
+  borderradius: "4px",
+  boxsizing: "border-box",
+  resize: "vertical",
 };
 
   return (
@@ -18,11 +24,11 @@ const myForm={
         <div className="container-xl">
         <p className="text-xl-center">100% wide until large</p>
         <div className="row">
-          <div className="col">
-          <img src="https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png" alt="..."/>
+          <div className="col-sm-9">
+          <img class="responsive"src="https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png" style={{height: "auto",width: "100%"}} alt="..."/>
           </div>
           <div className="col">
-          <form className="shadow p-3 mb-5 rounded "style={myForm} >
+          <form className="shadow p-3 mb-5 rounded form-label"style={myForm} >
           <span className="h3">Newsletter</span>
           <hr />
 
