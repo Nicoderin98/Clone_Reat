@@ -25,7 +25,7 @@ const myForm={
         <p className="text-xl-center">100% wide until large</p>
         <div className="row">
           <div className="col-sm-9">
-          <img class="responsive"src="https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png" style={{height: "auto",width: "100%"}} alt="..."/>
+          <img className="responsive"src="https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png" style={{height: "auto",width: "100%"}} alt="..."/>
           </div>
           <div className="col">
           <form className="shadow p-3 mb-5 rounded form-label"style={myForm} >
@@ -43,11 +43,11 @@ const myForm={
             </div>
             <div className="mb-3">
             <label className="form-label"><strong>Mansione:</strong></label>
-            <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-              <option selected>Choose...</option>
-              <option value="1">Front End</option>
-              <option value="2">Back End</option>
-              <option value="3">Full Stack</option>
+            <select className="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+              <option value="DEFAULT" >Choose...</option>
+              <option >Front End</option>
+              <option >Back End</option>
+              <option >Full Stack</option>
             </select>
             </div>
             <button type="submit" className="btn btn-primary flex"><strong>Submit</strong></button>
