@@ -57,7 +57,7 @@ const titolo={
             </select>
             </div>
             <div className='text-center'>
-            <button type="submit" className="btn btn-primary flex"style={{borderWidth:1,borderColor:'grey'}}><strong>Submit</strong></button>
+            <button type="submit" className="primo btn btn-primary flex"style={{borderWidth:1,borderColor:'grey'}}><strong>Submit</strong></button>
             </div>
           </form>
             </div>
@@ -78,7 +78,7 @@ const titolo={
         </div>
         <br />
           <div className='text-center'>
-          <button type="submit"className='btn btn-primary flex fs-1' style={{marginTop:"-100px", width:"auto",borderWidth:2,borderColor:'black'}}><strong>Get start</strong></button>
+          <button type="submit"className='primo btn btn-primary flex fs-1' style={{marginTop:"-100px", width:"auto",borderWidth:2,borderColor:'black'}}><strong>Get start</strong></button>
           </div>
           <div className='container'>
           <div className='row'>
