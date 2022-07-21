@@ -77,17 +77,36 @@ const titolo={
         </div>
         </div>
         <br />
-        <div className='text-center'>
-        <button type="submit"className='btn btn-primary flex fs-1' style={{marginTop:"-100px", width:"auto",borderWidth:2,borderColor:'black'}}><strong>Get start</strong></button>
-        </div>
-        <div className="card text-center ">
-          <img src="https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg" alt='card-foto'/>
-          <div className="card-body">
-            <h2>'What I learned from my visit to The Upside Down'</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <h5>'Nancy Wheeler'</h5>
+          <div className='text-center'>
+          <button type="submit"className='btn btn-primary flex fs-1' style={{marginTop:"-100px", width:"auto",borderWidth:2,borderColor:'black'}}><strong>Get start</strong></button>
           </div>
+          <div className='row'>
+            <div className="card text-center ">
+              <img src="https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg" alt='card-foto'/>
+              <div className="card-body">
+                <h2>'What I learned from my visit to The Upside Down'</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <h5>'Nancy Wheeler'</h5>
+              </div>
+            </div>
+            <div className="card text-center ">
+              <img src="https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg" alt='card-foto'/>
+              <div className="card-body">
+                <h2>'What I learned from my visit to The Upside Down'</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <h5>'Nancy Wheeler'</h5>
+              </div>
+            </div>
+            <div className="card text-center ">
+              <img src="https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg" alt='card-foto'/>
+              <div className="card-body">
+                <h2>'What I learned from my visit to The Upside Down'</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <h5>'Nancy Wheeler'</h5>
+              </div>
+            </div>
         </div>
+        <br />
     </div>
   )
 }
