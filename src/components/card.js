@@ -14,7 +14,7 @@ import "./card.css"
 function Cards() {
   return (
     <div className=' py-5 '>
-    <Card className="primo shadow p-3 mb-5 bg-body rounded"style={stile} sx={{ maxWidth: 240,marginLeft:"50px" }}>
+    <Card className="primo shadow p-3 mb-5 bg-body rounded"style={stile} sx={{ maxWidth: 240,marginLeft:"90px" }}>
       <CardActionArea>
         <CardMedia
           style={stile}
