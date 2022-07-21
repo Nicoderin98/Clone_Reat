@@ -4,7 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-
+import "./card.css"
 
   const stile={
     padding: "5px",
@@ -13,14 +13,13 @@ import { CardActionArea } from '@mui/material';
 
 function Cards() {
   return (
-    <div className='px-5 py-5 '>
-    <Card className="shadow p-3 mb-5 bg-body rounded"style={stile} sx={{ maxWidth: 345 }}>
+    <div className=' py-5 '>
+    <Card className="primo shadow p-3 mb-5 bg-body rounded"style={stile} sx={{ maxWidth: 240 }}>
       <CardActionArea>
         <CardMedia
           style={stile}
           component="img"
-          height="140"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeqIGbZGNYSwxnb3GN6Mj6p4znEpH7ohcDhQ&usqp=CAU"
+          image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeqIGbZGNYSwxnb3GN6Mj6p4znEpH7ohcDhQ&usqp=CAU"}
           alt="green iguana"
         />
         <CardContent className='text-center '>
