@@ -80,7 +80,7 @@ const titolo={
           <div className='text-center'>
           <button type="submit"className='btn btn-primary flex fs-1' style={{marginTop:"-100px", width:"auto",borderWidth:2,borderColor:'black'}}><strong>Get start</strong></button>
           </div>
-          <div className='container'>
+          <div className='container py-4'>
           <div className='row'>
             <div className="col card text-center ">
               <img src="https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg" alt='card-foto'/>
