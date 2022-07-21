@@ -80,8 +80,9 @@ const titolo={
           <div className='text-center'>
           <button type="submit"className='btn btn-primary flex fs-1' style={{marginTop:"-100px", width:"auto",borderWidth:2,borderColor:'black'}}><strong>Get start</strong></button>
           </div>
+          <div className='container'>
           <div className='row'>
-            <div className="card text-center ">
+            <div className="col card text-center ">
               <img src="https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg" alt='card-foto'/>
               <div className="card-body">
                 <h2>'What I learned from my visit to The Upside Down'</h2>
@@ -89,7 +90,7 @@ const titolo={
                 <h5>'Nancy Wheeler'</h5>
               </div>
             </div>
-            <div className="card text-center ">
+            <div className="col card text-center ">
               <img src="https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg" alt='card-foto'/>
               <div className="card-body">
                 <h2>'What I learned from my visit to The Upside Down'</h2>
@@ -97,7 +98,7 @@ const titolo={
                 <h5>'Nancy Wheeler'</h5>
               </div>
             </div>
-            <div className="card text-center ">
+            <div className="col card text-center ">
               <img src="https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg" alt='card-foto'/>
               <div className="card-body">
                 <h2>'What I learned from my visit to The Upside Down'</h2>
@@ -105,7 +106,8 @@ const titolo={
                 <h5>'Nancy Wheeler'</h5>
               </div>
             </div>
-        </div>
+          </div>
+          </div>
         <br />
     </div>
   )
