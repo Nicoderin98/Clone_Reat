@@ -78,7 +78,7 @@ const titolo={
         </div>
         <br />
           <div className='text-center'>
-          <button type="submit"className='primo btn btn-primary flex fs-1' style={{marginTop:"-100px", width:"auto",borderWidth:2,borderColor:'black'}}><strong>Get start</strong></button>
+          <button type="submit"className='primo btn btn-dark flex fs-1' style={{marginTop:"-100px", width:"auto",borderWidth:2,borderColor:'black'}}><strong>Get start</strong></button>
           </div>
           <div className='container py-4'>
           <div className='row'>
